@@ -9,7 +9,7 @@ import ru.kunin.CRUDSpringBoot.service.UserService;
 
 
 @Controller
-@RequestMapping()
+@RequestMapping("/")
 public class UsersController {
 
     private final UserService userService;
